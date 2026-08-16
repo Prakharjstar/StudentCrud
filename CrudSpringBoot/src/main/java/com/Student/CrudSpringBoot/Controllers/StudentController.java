@@ -49,7 +49,7 @@ public class StudentController {
     @DeleteMapping("/delete/{id}")
     public String delete(@PathVariable Long id){
         studentService.deleteStudent(id);
-        return "Student Deleted Successfully";
+        return "Students are deleted";
 
 
     }
